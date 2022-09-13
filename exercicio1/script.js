@@ -5,3 +5,9 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+for(let i in array){
+    let numero = Number(i)+1 //transformando i em number para somar +1 
+
+    console.log("Jogador " + numero + ": "+ array[i])
+}
+
